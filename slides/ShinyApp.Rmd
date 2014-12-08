@@ -45,7 +45,7 @@ This presentation will help you to use it in three steps.
 ![width](./submit.png)
 
 
-## Final Step
+## Third Step
 
 - Enjoy
 
