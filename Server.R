@@ -8,7 +8,7 @@ shinyServer(function(input, output) {
     
     switch(input$inDistribution,
            "Normal" = list(numericInput("m", "Mean", value = input$m),
-                      numericInput("s", "Standard Deviation", value = input$s, min=0.1)),
+                      numericInput("s", "Standard Deviation", value = input$s)),
            "Exponential" = numericInput("rate", "Rate", value = input$rate, min=0.1, max=10),
            "Poisson" = numericInput("lambda", "Lambda", value = input$lambda, min=0.1, max=10),
            "Uniform" = list(numericInput("m1", "Min", value = input$m1),
